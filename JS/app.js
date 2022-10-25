@@ -88,7 +88,7 @@ function chekearSaldo(saldo, precio) {
   return true;
 }
 
-//....MENU Y LOGICA PARA CARGA DE SALDO....//
+//MENU Y LOGICA PARA CARGA DE SALDO//
 function menuCargarSaldo() {
   let saldoAIngresar = mostrarMenuCargarSaldo();
   cargarSaldo(saldoAIngresar);
@@ -119,7 +119,7 @@ function cargarSaldo(saldoAcargar) {
   }
 }
 
-//....MENU Y LOGICA PARA RETIRO DE SALDO....//
+//MENU Y LOGICA PARA RETIRO DE SALDO//
 function menuRetirarSaldo() {
   saldoARetirar = mostrarMenuRetirarSaldo();
   retirarSaldo(saldoARetirar);
