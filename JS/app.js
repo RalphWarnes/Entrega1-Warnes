@@ -121,8 +121,6 @@ productos.push(producto13);
 productos.push(producto14);
 productos.push(producto15);
 
-let producto = new Product("Auricular", 10, 3);
-
 let opcionElegida;
 let opcion2;
 
